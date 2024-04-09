@@ -1,6 +1,16 @@
+namespace myproduct;
+
+
 entity product {
-key id : UUID;
+key id : String;
     name : String;
     stock : Integer;
-    price : String(100);  
+    price : String(100);
+}
+
+entity supplier {
+key id : String;
+suppliername : String;
+address : String;
+email : String;
 }
