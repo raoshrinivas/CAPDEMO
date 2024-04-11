@@ -2,4 +2,13 @@
 
 //get http://localhost:4004/odata/v4/helloword/product
 
-get http://localhost:4004/odata/v4/helloword/supplier
+//get http://localhost:4004/odata/v4/helloword/supplier
+//post http://localhost:4004/odata/v4/helloword/product
+PATCH  http://localhost:4004/odata/v4/helloword/product('1')
+Content-Type: application/json
+
+{
+     
+     name : "BMW"
+     
+    }

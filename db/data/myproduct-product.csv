@@ -1,3 +1,3 @@
-id,name,stock,price
-1,TATA,100,20000
-2,Maruti,100,2000
+id,createdAt,createdBy,modifiedAt,modifiedBy,name
+1,,,,,TATA
+2,,,,,Maruti
